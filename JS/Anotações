@@ -1,7 +1,47 @@
 1- JavaScript é uma tecnologia client-side, mas ele tbm funciona no server-side.
+Js é uma linguagem Orientada a Objeto.
 
 •Bibliografia usadas durante o curso
     -JavaScript O guia definitivo (David Flanagan)
     -JavaScript Guia do Programador (Maurício Samy Silva)
     -MDN ( https://developer.mozilla.org/pt-BR/ )
     -ecma ( https://www.ecma-international.org/ )
+
+2-Variáveis e Tipos Primitivos
+( = ) = recebe
+var = variável, pode ser mudada mais para frente ( ex : var n1 = 10 ; var n2 = 20 ; var n3 = "Marcos" ; var n4 = 'Victor' e var n5 = `Costa`)
+let = variável, não pode ser mudada, quando é dado uma informação para ela, vai ser somente aquela.
+
+• Nome de cada variável se chama IDENTIFICADOR.
+    -Podem começar com uma letra, $ ou _;
+    -Não pode começar com números;
+    -É possivel usar letras ou números;
+    -é possivel utilizar acentos e símbolos;
+    -Não podem conter espaços;
+    -Não podem ser palavras reservadas.
+
+    **********DICAS**********
+        -Maiúsculas e minúsculas fazem diferença (ex var a= 10 ; var A = 20);
+        -Tente escolher nomes coerentes para variáveis;
+        -Evite se tornar um "Progamador alfabeto"(aquele que coloca as variáveis como a1,b2,c3,d4...) ou um "programador contador" (aquele que coloca as variáveis como n1,n2,n3,n4,n5...);
+
+• Inteiros, Float, Strings e Boolean
+OBS: no Js (inteiros e float) entram como NUMBER
+-Inteiros
+    *5
+    *18
+    *-12
+
+-Float
+    *0.5
+    *-15.9
+    *3.14
+
+-String
+    *"Marcos"
+    *'Victor'
+    *`Costa`
+
+-Boolean
+    *true
+    *false
