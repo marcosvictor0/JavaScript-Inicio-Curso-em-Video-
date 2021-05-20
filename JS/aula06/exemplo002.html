@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(114, 79, 138);
+            font: normal 10pt Arial;
+        }
+        p {
+            color: rgb(201, 193, 193);
+            font: normal 20pt Arial;
+        }
+    </style>
+
+    <title>
+        Exemplo 001 [ 18 / 05 / 2021 ]
+        • Primereiro Programa 
+    </title>
+</head>
+<body>
+    <h1>
+        Olá, Mundo
+    </h1>
+    <p>
+        já me livrei da maldição hehe
+    </p>
+    <script>
+       //var nome = window.prompt("Qual é seu nome ?");
+       //window.alert(`Seja Bem Vindo, ${nome}`); Template String
+       //window.alert("Seja bem vindo " + nome);
+
+       //var nome = window.prompt("Qual é seu nome ?");
+       //var idade = window.prompt("Qual é sua idade ?");
+       //var email = window.prompt("Qual é seu melhor email ?");
+       //window.alert("Prontinho!! ja está tudo registrado." + "Seja Bem vindo " + nome);
+
+        //Number.parseInt(n); Inteiro
+        //Number.parseFloat(n); Float
+        //Number()
+        //String()
+        //n.toString()
+
+        //s.length  ele mostra quantos caracteres a string tem.
+        //s.toUpperCase() ele converte tudo para maiúsculo.
+        //s.toLowerCase() ele converte tudo para o minúsculo.
+
+        //n1.toFixed(2) para ser um número com duas casas, por exemplo um número 1320,2 fica 1320,20
+        //n1.toFixed(2).replace(" . ", " , " ) ele vai trocar o PONTO por VÍRGULA. Exemplo 1320.20 vai para 1320,20.
+        //n1.toLocaleString("pt-br", {style: 'currency', currency: 'BRL'}) localizar por pt-BR, entre chaves eu vou colocar as configurações ou atributos, e vai ser um BRL.
+
+       var n1 = Number.parseInt(window.prompt("Digite um número: "));
+       var n2 = Number.parseInt(window.prompt("Digite outro número: "));
+       var s = (n1 + n2);
+       window.alert("A soma dos 2 números é: " + s); // Concatenação
+       // (number+number) para adição
+       // (string+string) para concatenação
+    </script>
+</body>
+</html>

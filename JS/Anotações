@@ -45,3 +45,6 @@ OBS: no Js (inteiros e float) entram como NUMBER
 -Boolean
     *true
     *false
+
+typeof = saber qual variável e aquela informação
+
