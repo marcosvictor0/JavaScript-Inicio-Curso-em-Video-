@@ -48,3 +48,23 @@ OBS: no Js (inteiros e float) entram como NUMBER
 
 typeof = saber qual variável e aquela informação
 
+•Operadores do Js
+    -aritméticos
+        -(+)SOMA, 
+        -(-)SUBTRAÇÃO,
+        -(*)MULTIPLICAÇÃO,
+        -(/)DIVISÃO REAL,
+        -(%)RESTO DA DIVISÃO INTEIRA,
+        -(**)POTENCIA,
+
+    (ORDEM DE PRECEDÊNCIA) => () -> ** -> * / % (caso haja mais de um desses na conta, lê-se primeiro da esquerda pra direta.) -> + -
+
+    -atribuição
+        -Atribuição Simples ( = ) ex: var a = 5 + 3
+        -Auto-Atribuição -> var n = 3 -> n = n + 4 -> n = 7 -> Simplificando fica ( n += 4 ) usa-se se no caso a mesma variável receber ela mesmo ( n -=4 ), ( n *=4 ), ( n /=4 ), ( n **=4 ), ( n %=4 ).
+        -Incremento -> ( x++ ), ( x-- ),
+        -
+        -
+    -relacionais
+    -lógicos
+    -ternário
