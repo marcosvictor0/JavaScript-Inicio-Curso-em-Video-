@@ -66,5 +66,25 @@ typeof = saber qual variável e aquela informação
         -
         -
     -relacionais
+        - ( > ) maior que
+        - ( < ) menor que
+        - ( >= ) maior ou igual
+        - ( <= ) menor ou igual
+        - ( == ) igualdade
+        - ( != ) não igual / diferente
+            •Relacionais de Identidade
+                -ex1: 5 == 5 ? "true"
+                -ex2: 5 == "5" ? "true" (pq o == não testa o tipo )
+                -ex3: 5 === "5" ? "false" (ja o simbolo de 3 =, ele testa sim o tipo.)
+                tbm tem o !==
     -lógicos
+        - ! ( Negação )
+        - && (Conjunção ( E ))
+        - || (Disjunção ( OU ))
+
+        OBS: Caso tenha operadores aritméticos, relacionais e lógicos, se faz primeiro nessa ordem -> 1ª Aritméticos, 2ª Relacionais e 3ª os lógicos. se tiver na mesma operação o !, && e o || se faz primeiro o ! dps o && e por ultimo o || . 
     -ternário
+    teste(teste logico que da vdd ou false) ? true(é oq vai acontecer se o teste logico der vdd) : false (é oq vai acontecer se o teste logico der falso)
+    ex: média >= 7.0 ? "Aprovado" : "Reprovado"
+        -?
+        -:
