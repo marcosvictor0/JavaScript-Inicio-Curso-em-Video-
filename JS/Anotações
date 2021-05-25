@@ -88,3 +88,19 @@ typeof = saber qual variável e aquela informação
     ex: média >= 7.0 ? "Aprovado" : "Reprovado"
         -?
         -:
+-------------------------------------------------------------------------------------------------------------
+
+• DOM 
+    - O que é a DOM(Document Object Model) ?
+        Modelo de objetos para documentos, é um conjunto de objetos dentro do navegador, que vai dar acesso aos componentes internos do seu website.
+    -Árvore DOM
+        window.location
+        window.document.html.head(dentro de head tem meta, title e etc...) ou body(temos h1, p , div, strong)
+        window.history
+
+    -Selecionando
+        *Por Marcar(getElementByTagName())
+        *Por ID(getElementById())
+        *Por Nome(getElementByName())
+        *Por Classe(getElementByclass())
+        *Por Seletor( querySelector() e querySelectorAll() )
