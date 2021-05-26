@@ -104,3 +104,12 @@ typeof = saber qual variável e aquela informação
         *Por Nome(getElementByName())
         *Por Classe(getElementByclass())
         *Por Seletor( querySelector() e querySelectorAll() )
+
+• Eventos no DOM
+    -Evento é tudo que pode acontecer com algum determinado elemento.
+•Funções
+    -Exemplo:
+
+        function ação (parametros) {
+
+        }
