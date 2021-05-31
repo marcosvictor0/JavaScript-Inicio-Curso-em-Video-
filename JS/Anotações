@@ -153,3 +153,19 @@ if ( condição ) {
     } else ( condição) {
         bloco de codigo
     }
+
+    •Condição Múltipla
+    switch (expressão) {
+        case valor 1:
+        bloco de codigo
+        break
+        case valor 2:
+        bloco de codigo
+        break
+        case valor 3:
+        bloco de codigo
+        break 
+        default:
+        bloco de codigo
+        break
+    }
