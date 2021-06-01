@@ -154,7 +154,9 @@ if ( condição ) {
         bloco de codigo
     }
 
+
     •Condição Múltipla
+
     switch (expressão) {
         case valor 1:
         bloco de codigo
@@ -169,3 +171,16 @@ if ( condição ) {
         bloco de codigo
         break
     }
+
+• Repetições ou Laços
+
+    -Tipos de Repetições
+    while = enquanto 
+    •While ( condição ) {
+        bloco de codigo
+    }
+    
+    do = faça
+    •do{
+        bloco de codigo
+    } while ( condição )
