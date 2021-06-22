@@ -184,3 +184,7 @@ if ( condição ) {
     •do{
         bloco de codigo
     } while ( condição )
+
+    •for (inicio;teste;incremento) {
+        
+    }
