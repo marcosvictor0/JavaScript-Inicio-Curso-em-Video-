@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div class="div1">
+            <p>Número: <input type="number" name="numero" id="numero">  <input type="button" value="calcular" onclick="calculartab()"> </p>
+            <p>Digite o operador: <input type="text" name="" id="operador">obs: ( + ), ( - ), <br>( * ), ( / )</p>
+        </div>
+        <div id="res">
+            <select name="tabuada" id="seltab" size=10>
+                <option> Digite um número no campo superior! </option>
+                <!--<option value="optionSoma">Tabuada da Soma</option>
+                <option value="optionSub">Tabuada da Subtração</option>
+                <option value="optionMult">Tabuada da Multiplicação</option>
+                <option value="optionDiv">Tabuada da Divisão</option>
+                 DA PARA FAZER ESSE MESMO PROCEDIMENTO DINÂMINCAMENTE PELO JS-->
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoEmVideo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
