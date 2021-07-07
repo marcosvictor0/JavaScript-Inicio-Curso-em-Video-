@@ -188,3 +188,11 @@ if ( condição ) {
     •for (inicio;teste;incremento) {
         
     }
+
+• Variáveis Compostas
+
+    -Variáveis simples
+      ~Variáveis Simples só conseguem armazenar um valor por vez
+
+    -Variáveis Composta
+      ~Variáveis Compostas devem ser capazes de armazenar vários valores em uma mesma estrutura.
