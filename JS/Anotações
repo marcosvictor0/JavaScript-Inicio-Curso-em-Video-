@@ -196,3 +196,7 @@ if ( condição ) {
 
     -Variáveis Composta
       ~Variáveis Compostas devem ser capazes de armazenar vários valores em uma mesma estrutura.
+
+• Funções 
+    - São ações executadas assim que são chamadas ou em decorrência de algum evento.
+    - Uma função pode receber parâmetros e pode retornar um resultado.
